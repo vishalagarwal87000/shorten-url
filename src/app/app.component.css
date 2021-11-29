@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    overflow-y: hidden !important;
+}
+
+.background {
+    background-image: url("../assets/background.jpg");
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+}
+
+.box-container {
+    padding-top: 2em;
+    width: 30%;
+    margin-left: 68%;
+}
+
+.card{
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    block-size: auto;
+}
+
+.mb-3 {
+    text-align: center;
+}
